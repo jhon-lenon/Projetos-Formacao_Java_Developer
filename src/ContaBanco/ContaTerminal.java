@@ -9,7 +9,7 @@ public class ContaTerminal {
     static double saldo;
 
     @SuppressWarnings("resource")
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Por favor, informe o seu nome:");
